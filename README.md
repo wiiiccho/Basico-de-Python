@@ -126,7 +126,7 @@ precioPan = 2.50
 ```
 bool
 ```sh
-casado = true
+casado = False
 ```
 char
 ```sh
