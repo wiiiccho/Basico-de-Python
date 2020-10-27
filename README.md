@@ -73,25 +73,6 @@ Los algoritmos presentan las siguientes características:
 
 #### Ejemplos de algoritmos
 
-Un par de ejemplos posibles de algoritmo son:
-
-Algoritmo para elegir unos zapatos de fiesta:
-
-INICIO
-Entrar a la tienda y buscar la sección de zapatos de caballero.
-Tomar un par de zapatos.
-¿Son zapatos de fiesta?
-     SI: (ir al paso 5) – NO: (volver al paso 3)
-
-¿Hay de la talla adecuada?
-     SI: (ir al paso 6) – NO: (volver al paso 3)
-
-¿El precio es pagable?
-     SI: (ir al paso 7) – NO: (volver al paso 3)
-
-Comprar el par de zapatos elegido.
-FIN
-
 Algoritmo para calcular el área de un triángulo rectángulo:
 
 - INICIO
