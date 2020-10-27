@@ -1,3 +1,50 @@
+<div align="center">
+  <h1>Curso de Python</h1>
+</div>
+
+<div align="center"> 
+  <img src="img/python.png" width="250">
+</div>
+
+# Tabla de contenido
+- [Basicos de programacion](#Basicos-de-programacion)
+    - [Guía de instalación y conceptos básicos](#Guía-de-instalación-y-conceptos-básicos)
+    - [¿Por qué programar con Python?](#¿Por-qué-programar-con-Python?)
+    - [Decomposición](#Decomposición)
+    - [Abstracción](#Abstracción)
+    - [Encapsulación getters and setters](#Encapsulación-getters-and-setters)
+    - [Herencia](#Herencia)
+    - [Polimorfismo](#Polimorfismo)
+- [Complejidad algorítmica](#Complejidad-algorítmica)
+    - [Introducción a la complejidad algorítmica](#Introducción-a-la-complejidad-algorítmica)
+    - [Conteo abstracto de operación](#Conteo-abstracto-de-operación)
+    - [Notación asintótica](#Notación-asintótica)
+    - [Clases de complejidad algorítmica](#Clases-de-complejidad-algorítmica)
+- [Algoritmos de búsqueda y ordenación](#Algoritmos-de-búsqueda-y-ordenación)
+    - [Búsqueda lineal](#Búsqueda-lineal)
+    - [Búsqueda binaria](#Búsqueda-binaria)
+    - [Ordenamiento de burbuja](#Ordenamiento-de-burbuja)
+    - [Ordenamiento por inserción](#Ordenamiento-por-inserción)
+    - [Ordenamiento por mezcla](#Ordenamiento-por-mezcla)
+- [Ambientes virtuales](#Ambientes-virtuales)
+- [Graficado](#Graficado)
+    - [¿Por qué graficar?](#¿Por-qué-graficar?)
+    - [Graficado simple](#Graficado-simple)
+- [Algoritmos de optimización](#Algoritmos-de-optimización)
+    - [Introducción a la optimización](#Introducción-a-la-optimización)
+    - [El problema del morral](#El-problema-del-morral)
+
+# <a name="Basicos-de-programacion">Basicos de programacion</a>
+
+## <a name="Guía-de-instalación-y-conceptos-básicos">Guía de instalación y conceptos básicos</a>
+
+
+
+
+
+
+
+
 # Python
 
 Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.​ Se trata de 
