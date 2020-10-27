@@ -81,6 +81,11 @@ Algoritmo para calcular el área de un triángulo rectángulo:
 - Dividir entre 2 el resultado (b x h) / 2
 - FIN
 
+#### Diagrama de flujo
+
+El diagrama de flujo o flujograma o diagrama de actividades es la representación gráfica de un algoritmo o proceso. Se utiliza en disciplinas como programación, economía, procesos industriales y psicología cognitiva.
 
 
-
+<div align="center"> 
+  <img src="img/Diagrama-de-flujo.jpg" width="250">
+</div>
