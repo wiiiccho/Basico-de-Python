@@ -9,7 +9,7 @@
 # Tabla de contenido
 - [Introducción a la programación con Python](#Introducción-a-la-programación-con-Python)
     - [¿Por qué Python?](#¿Por-qué-Python?)
-    - [El núcleo de un programa: los algoritmos](#El-núcleo-de-un-programa:-los-algoritmos)
+    - [El núcleo de un programa: los algoritmos](#El-núcleo-de-un-programa-los-algoritmos)
 
 
 
@@ -42,7 +42,7 @@
 - Elegante
 - Buenas prácticas
 
-## <a name="El-núcleo-de-un-programa:-los-algoritmos">El núcleo de un programa: los algoritmos</a>
+## <a name="El-núcleo-de-un-programa-los-algoritmos">El núcleo de un programa: los algoritmos</a>
 
 #### ¿Qué es un Algoritmo?
 
