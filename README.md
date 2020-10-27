@@ -87,5 +87,5 @@ El diagrama de flujo o flujograma o diagrama de actividades es la representació
 
 
 <div align="center"> 
-  <img src="img/Diagrama-de-flujo.jpg" width="250">
+  <img src="img/Diagrama-de-flujo.jpg" width="450">
 </div>
