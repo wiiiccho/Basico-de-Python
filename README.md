@@ -9,6 +9,10 @@
 # Tabla de contenido
 - [Introducción a la programación con Python](#Introducción-a-la-programación-con-Python)
     - [¿Por qué Python?](#¿Por-qué-Python?)
+    - [El núcleo de un programa: los algoritmos](#El-núcleo-de-un-programa:-los-algoritmos)
+
+
+
 
 # <a name="Introducción-a-la-programación-con-Python">Introducción a la programación con Python</a>
 
@@ -37,3 +41,65 @@
 - Fácil de aprender
 - Elegante
 - Buenas prácticas
+
+## <a name="El-núcleo-de-un-programa:-los-algoritmos">El núcleo de un programa: los algoritmos</a>
+
+#### ¿Qué es un Algoritmo?
+
+En términos de programación, un algoritmo es una secuencia de pasos lógicos que permiten solucionar un problema.
+
+#### Partes de un algoritmo
+Todo algoritmo debe constar de las siguientes partes:
+
+- Input o entrada. El ingreso de los datos que el algoritmo necesita para operar.
+- Proceso. Se trata de la operación lógica formal que el algoritmo emprenderá con lo recibido del input.
+- Output o salida. Los resultados obtenidos del proceso sobre el input, una vez terminada la ejecución del algoritmo.
+
+#### ¿Para qué sirve un algoritmo?
+Dicho muy llanamente, un algoritmo sirve para resolver paso a paso un problema. Se trata de una serie de instrucciones ordenadas y secuenciadas para guiar un proceso determinado.
+
+En las Ciencias de la computación, no obstante, los algoritmos constituyen el esqueleto de los procesos que luego se codificarán y programarán para que sean realizados por el computador.
+
+#### Características de los algoritmos
+
+Los algoritmos presentan las siguientes características:
+
+- Secuenciales. Los algoritmos operan en secuencia, debe procesarse uno a la vez.
+- Precisos. Los algoritmos han de ser precisos en su abordaje del tema, es decir, no pueden ser ambiguos o subjetivos.
+- Ordenados. Los algoritmos se deben establecer en la secuencia precisa y exacta para que su lectura tenga sentido y se resuelva el problema.
+- Finitos. Toda secuencia de algoritmos ha de tener un fin determinado, no puede prolongarse hasta el infinito.
+- Concretos. Todo algoritmo debe ofrecer un resultado en base a las funciones que cumple.
+- Definidos. Un mismo algoritmo ante los mismos elementos de entrada (input) debe dar siempre los mismos resultados.
+
+#### Ejemplos de algoritmos
+
+Un par de ejemplos posibles de algoritmo son:
+
+Algoritmo para elegir unos zapatos de fiesta:
+
+INICIO
+Entrar a la tienda y buscar la sección de zapatos de caballero.
+Tomar un par de zapatos.
+¿Son zapatos de fiesta?
+     SI: (ir al paso 5) – NO: (volver al paso 3)
+
+¿Hay de la talla adecuada?
+     SI: (ir al paso 6) – NO: (volver al paso 3)
+
+¿El precio es pagable?
+     SI: (ir al paso 7) – NO: (volver al paso 3)
+
+Comprar el par de zapatos elegido.
+FIN
+
+Algoritmo para calcular el área de un triángulo rectángulo:
+
+- INICIO
+- Hallar las medidas de la base (b) y altura (h)
+- Multiplicar: base por altura (b x h)
+- Dividir entre 2 el resultado (b x h) / 2
+- FIN
+
+
+
+
