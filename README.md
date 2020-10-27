@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Curso de Python</h1>
+  <h1>Básico de Python</h1>
 </div>
 
 <div align="center"> 
@@ -7,8 +7,8 @@
 </div>
 
 # Tabla de contenido
-- [Basicos de programacion](#Basicos-de-programacion)
-    - [Guía de instalación y conceptos básicos](#Guía-de-instalación-y-conceptos-básicos)
+- [Introducción a la programación con Python](#Introducción-a-la-programación-con-Python)
+    - [¿Por qué Python?](#¿Por-qué-Python?)
     - [¿Por qué programar con Python?](#¿Por-qué-programar-con-Python?)
     - [Decomposición](#Decomposición)
     - [Abstracción](#Abstracción)
@@ -34,12 +34,9 @@
     - [Introducción a la optimización](#Introducción-a-la-optimización)
     - [El problema del morral](#El-problema-del-morral)
 
-# <a name="Basicos-de-programacion">Basicos de programacion</a>
+# <a name="Introducción-a-la-programación-con-Python">Introducción a la programación con Python</a>
 
-## <a name="Guía-de-instalación-y-conceptos-básicos">Guía de instalación y conceptos básicos</a>
-
-
-
+## <a name="¿Por-qué-Python?">¿Por qué Python?</a>
 
 
 
