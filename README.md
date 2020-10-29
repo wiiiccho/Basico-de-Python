@@ -13,8 +13,14 @@
     - [Instalación de nuestras herramientas](#Instalación-de-nuestras-herramientas)
     - [Instalación de nuestras herramientas en Mac](#Instalación-de-nuestras-herramientas-en-Mac)
     - [Instalación de nuestras herramientas en Ubuntu](#Instalación-de-nuestras-herramientas-en-Ubuntu)
-
-
+    - [Tu mejor herramienta: la consola](#Tu-mejor-herramienta-la-consola)
+- [Conceptos básicos de Python](#Conceptos-básicos-de-Python)
+    - [Explorando Python: operadores aritméticos](#Explorando-Python-operadores-aritméticos)
+    - [¿Qué es una variable?](#¿Qué-es-una-variable?)
+    - [Los primitivos: tipos de datos sencillos](#Los-primitivos-tipos-de-datos-sencillos)
+    - [Convertir un dato a un tipo diferente](#Convertir-un-dato-a-un-tipo-diferente)
+    - [Operadores lógicos y de comparación](#Operadores-lógicos-y-de-comparación)
+    - [Tu primer programa: conversor de monedas](#Tu-primer-programa-conversor-de-monedas)
 
 
 
@@ -279,9 +285,11 @@ Ejecuta el comando para verificar que el lenguaje de programación se instaló c
 python3 -V
 ```
 
+## <a name="Tu-mejor-herramienta-la-consola">Tu mejor herramienta: la consola</a>
 
+# <a name="Conceptos-básicos-de-Python">Conceptos básicos de Python</a>
 
-## Explorando Python: operadores aritméticos
+## <a name="Explorando-Python-operadores-aritméticos">Explorando Python: operadores aritméticos</a>
 
 > PEMDAS, que en castellano podríamos traducir como PAPOMUDAS (PAréntesis, POtencias, MUltiplicación, División, Adición, Sustracción).
 
@@ -312,7 +320,8 @@ import math
 math.sqrt(9)
 ```
 
-## ¿Qué es una variable?
+## <a name="¿Qué-es-una-variable?">¿Qué es una variable?</a>
+
 #### Creando Variables
 Es un lugar en memoria (una especie de caja) en el que podemos guardar objetos (números, texto, etc). Esta variable posee un identificador o nombre con el cual podemos llamarla cuando la necesitemos.
 
@@ -345,7 +354,7 @@ print(total)
 # 10
 ```
 
-## Los primitivos: tipos de datos sencillos
+## <a name="Los-primitivos-tipos-de-datos-sencillos">Los primitivos: tipos de datos sencillos</a>
 
 En python todo es un objeto
 
@@ -414,7 +423,8 @@ print(cantante)
 # False
 ```
 
-## Convertir un dato a un tipo diferente
+## <a name="Convertir-un-dato-a-un-tipo-diferente">Convertir un dato a un tipo diferente</a>
+
 Pasar de un tipo de dato a otro
 
 Sintaxis	Descripción
@@ -467,7 +477,7 @@ numero1 = 4.5
 str(numero1)
 # '4.5' <== Lo convierte a texto
 ```
-## Operadores lógicos y de comparación
+## <a name="Operadores-lógicos-y-de-comparación">Operadores lógicos y de comparación</a>
 
 | Operadores lógicos | Significado |
 | ------ | ------ |
@@ -506,7 +516,13 @@ estudia = True
 not estudia
 # False
 ```
-## Tu primer programa: conversor de monedas
+
+## <a name="Tu-primer-programa-conversor-de-monedas">Tu primer programa: conversor de monedas</a>
+
+
+
+
+
 
 
 
@@ -516,7 +532,5 @@ not estudia
 
 
 ```python
-import math
 
-math.sqrt(9)
 ```
