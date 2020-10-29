@@ -281,6 +281,242 @@ python3 -V
 
 
 
+## Explorando Python: operadores aritméticos
+
+> PEMDAS, que en castellano podríamos traducir como PAPOMUDAS (PAréntesis, POtencias, MUltiplicación, División, Adición, Sustracción).
+
+
+| Operadores aritméticos | README |
+| ------ | ------ |
+| 5 + 5 | Adición (Suma) |
+| 5 - 5 | Sustracción (Resta) |
+| 5 * 5 | Multiplicación |
+| 5 / 5 | División (con decimales) |
+| 5 // 5 | División (sin decimales) |
+| 21 % 5 | Resto de la división |
+| 2 ** 2 | Potenciación |
+
+
+Raiz cuadrada en Python de 9
+
+Primera forma:
 ```python
-$ node app
+9**0.5
+```
+
+Segunda forma:
+
+```python
+import math
+
+math.sqrt(9)
+```
+
+## ¿Qué es una variable?
+#### Creando Variables
+Es un lugar en memoria (una especie de caja) en el que podemos guardar objetos (números, texto, etc). Esta variable posee un identificador o nombre con el cual podemos llamarla cuando la necesitemos.
+
+No pueden empezar con un número. Deben estar en minúsculas Para separar las palabras usamos el guion bajo: _ Estas reglas son aplicadas al lenguaje python, en otros lenguajes pueden haber otras reglas.
+
+- Asignación de variables con su edentificador o nombre
+```python
+nombreDeLaVariable
+```
+Asignándole un valor a la variable
+
+```python
+nombreDeLaVariable = 15
+```
+Reasignación de variables
+
+```python
+edad = 15
+edad = 46
+print(edad)
+# 46
+```
+Suma con variables
+
+```python
+a = 5
+b = 5
+total = a + b
+print(total)
+# 10
+```
+
+## Los primitivos: tipos de datos sencillos
+
+En python todo es un objeto
+
+#### Tipos de datos simples
+
+| Dato | Significado |
+| ------ | ------ |
+| int(8) | entero |
+| real(4.8) | float |
+| bool(True,False) | booleano |
+| char("hola") | string |
+
+#### Tipos de datos Compuestos
+
+| Dato | Significado |
+| ------ | ------ |
+| Tablas, arrays y string | sinNotas |
+| Estructura y record | sinNotas |
+| Tupla string(statico, inmutable) | sinNotas |
+| Listas, diccionarios, set (dinamico, mutable) | sinNotas |
+
+
+
+Entero
+```python
+edad = 45
+print(edad)
+# 45
+```
+
+Float
+```python
+PrecioPan = 1.50
+print(PrecioPan)
+# 1.50
+```
+string
+
+```python
+nombre = "Luis"
+print(nombre)
+# "Luis"
+```
+
+Concatenacion (Unir dos textos)
+
+```python
+nombre = "Luis "
+apellido = "Morales"
+
+concatenacion = nombre + apellido
+print(concatenacion)
+# "Luis Morales"
+```
+
+Multiplicar el contenido de una variable string
+```python
+saludo = "Hola"
+saludo * 2
+# "Hola Hola"
+```
+booleano
+```python
+cantante = False
+print(cantante)
+# False
+```
+
+## Convertir un dato a un tipo diferente
+Pasar de un tipo de dato a otro
+
+Sintaxis	Descripción
+
+- int(var)	variable a entero
+- float(var)	variable a flotante
+- str(var)	variable a texto
+- bool(var)	variable a booleano
+- abs(var)	variable a valor absoluto
+
+Funciones
+Para pedirle al usuario que introduzca datos
+
+```python
+input("")
+```
+Ejemplo:
+
+```python
+number1 = input("Escribe un número: ")
+Escribe un número: 4
+number2 = input("Escribe otro número: ")
+Escribe un número: 5
+numero1 + numero 2
+# '45's <== Se concatenan
+```
+
+Solución al ejemplo 1
+
+```python
+number1 = int(input("Escribe un numero: "))
+Escribe un numero: 100
+number2 = int(input("Escribe otro numero: "))
+Escribe otro numero: 300
+number1 + number2
+# 400
+```
+
+Ejemplo 2:
+
+```python
+numero1 = 4.5
+int(numero1)
+# 4 <== Trunca el flotante
+```
+Ejemplo 3:
+
+```python
+numero1 = 4.5
+str(numero1)
+# '4.5' <== Lo convierte a texto
+```
+## Operadores lógicos y de comparación
+
+| Operadores lógicos | Significado |
+| ------ | ------ |
+| and  | Para comparar si dos valores son verdaderos. |
+| or |  Si al menos una de tus variables cuenta con los requisitos que buscas. |
+| not  |  Para invertir el valor booleano. |
+
+
+| Operadores comparación | Significado |
+| ------ | ------ |
+| ==  |  Compara dos valores y te dice si son iguales o no. |
+| != | Compara dos valores y te dice sin son diferentes o no. |
+| > | Compara si es mayor que otro valor. |
+| < | Compara si es menor que otro valor. |
+| >= | Igual o mayor que el valor a comparar. |
+| <= | Igual o menor que el valor a comparar. |
+
+### Ejemplos
+```sh
+estudia = True
+trabaja = False
+estudia and trabaja
+# False
+```
+
+```sh
+estudia = True
+trabaja = False
+estudia or trabaja
+# True
+```
+
+
+```sh
+estudia = True
+not estudia
+# False
+```
+## Tu primer programa: conversor de monedas
+
+
+
+
+
+
+
+
+```python
+import math
+
+math.sqrt(9)
 ```
