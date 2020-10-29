@@ -285,6 +285,17 @@ Ejecuta el comando para verificar que el lenguaje de programación se instaló c
 python3 -V
 ```
 
+Iniciar la consola interactiva de python en Microsoft Windows
+
+```python
+py
+```
+Iniciar la consola interactiva de python en Linux
+
+```python
+python3
+```
+
 ## <a name="Tu-mejor-herramienta-la-consola">Tu mejor herramienta: la consola</a>
 
 # <a name="Conceptos-básicos-de-Python">Conceptos básicos de Python</a>
