@@ -10,6 +10,11 @@
 - [Introducción a la programación con Python](#Introducción-a-la-programación-con-Python)
     - [¿Por qué Python?](#¿Por-qué-Python?)
     - [El núcleo de un programa: los algoritmos](#El-núcleo-de-un-programa-los-algoritmos)
+    - [Instalación de nuestras herramientas](#Instalación-de-nuestras-herramientas)
+    - [Instalación de nuestras herramientas en Mac](#Instalación-de-nuestras-herramientas-en-Mac)
+    - [Instalación de nuestras herramientas en Ubuntu](#Instalación-de-nuestras-herramientas-en-Ubuntu)
+
+
 
 
 
@@ -89,3 +94,193 @@ El diagrama de flujo o flujograma o diagrama de actividades es la representació
 <div align="center"> 
   <img src="img/Diagrama-de-flujo.jpg" width="450">
 </div>
+
+
+## <a name="Instalación-de-nuestras-herramientas">Instalación de nuestras herramientas</a>
+
+```python
+https://www.python.org/
+```
+<div align="center"> 
+  <img src="img/4.png" width="450">
+</div>
+
+
+```python
+https://cmder.net/
+```
+> Cmder es un programa portable para todas las versiones de Windows que se ofrece en dos variantes: Una 
+> versión mínima que funciona como la terminal de Windows que ya conocemos, y una completa que, además, 
+> incluye compatibilidad con comandos Unix
+
+
+```python
+https://code.visualstudio.com/
+```
+<div align="center"> 
+  <img src="img/1.png" width="450">
+</div>
+
+<div align="center"> 
+  <img src="img/2.png" width="450">
+</div>
+<div align="center"> 
+  <img src="img/3.png" width="450">
+</div>
+
+
+## <a name="Instalación-de-nuestras-herramientas-en-Mac">Instalación de nuestras herramientas en Mac</a>
+
+- La consola / terminal / línea de comandos
+- El editor de código: Visual Studio Code
+- El lenguaje de programación: Python
+
+#### Instalación de la consola
+En Mac no necesitas instalar una consola a diferencia de Windows. Sin embargo, para poder usar correctamente la terminal debes seguir una serie de pasos:
+
+Abre la carpeta Aplicaciones. Luego, ve a Utilidades y haz doble click en la aplicación Terminal. Esto debería abrirte la consola de comandos. Si no te funcionó o no encontraste la aplicación de Terminal, puedes pulsar ⌘ + barra espaciadora para abrir Spotlight. Allí escribe “Terminal” y haz click en el primer resultado de búsqueda.
+
+<div align="center"> 
+  <img src="img/mac0.png" width="450">
+</div>
+
+#### Ejecuta los siguientes comandos:
+
+```python
+sudo xcode-select --install
+sudo xcode-select --reset
+```
+La Terminal te pedirá que ingreses la contraseña de administrador de tu computadora. Házlo.
+
+<div align="center"> 
+  <img src="img/mac1.png" width="450">
+</div>
+
+<div align="center"> 
+  <img src="img/mac2.png" width="450">
+</div>
+
+
+#### Instalación del editor de código
+
+- Abre tu navegador preferido (Safari, Chrome, el que quieras) y dirígete a
+
+```python
+https://code.visualstudio.com/
+```
+<div align="center"> 
+  <img src="img/mac3.png" width="450">
+</div>
+
+- Una vez allí, haz click en el botón “Download for Mac” o “Descargar para Mac”
+
+
+<div align="center"> 
+  <img src="img/mac4.png" width="450">
+</div>
+
+- Abre la lista de archivos descargados de tu navegador, y encuentra el instalador
+<div align="center"> 
+  <img src="img/mac5.png" width="450">
+</div>
+
+- Arrastra el archivo Visual Studio Code.app a la carpeta Aplicaciones
+<div align="center"> 
+  <img src="img/mac6.png" width="450">
+</div>
+
+- Añade el editor al dock dándole click derecho al ícono que te aparece en pantalla y seleccionando “Options” u “Opciones”, y luego “Keep in dock” o “Mantener en el dock”
+
+<div align="center"> 
+  <img src="img/mac7.png" width="450">
+</div>
+
+
+#### Instalación de Python
+El lenguaje de programación es la joya de la corona de nuestras herramientas. Sin Python no puedes programar, es así de simple. Sigue los siguientes pasos:
+
+Abre tu navegador preferido (Safari, Chrome, el que quieras) y dirígete a
+
+```python
+https://www.python.org/downloads/
+```
+<div align="center"> 
+  <img src="img/py1.png" width="450">
+</div>
+
+- Da click en el botón “Download Python 3.x.x”. En las “x” vas a ver números. Lo importante es que el primer número sea un 3, los dos que siguen no nos interesan, porque cambian todo el tiempo.
+
+- Abre el instalador descargado, y sigue los pasos
+<div align="center"> 
+  <img src="img/py2.png" width="450">
+</div>
+
+<div align="center"> 
+  <img src="img/py3.png" width="450">
+</div>
+
+## <a name="Instalación-de-nuestras-herramientas-en-Ubuntu">Instalación de nuestras herramientas en Ubuntu</a>
+
+
+- La consola / terminal / línea de comandos
+- El editor de código: Visual Studio Code
+- El lenguaje de programación: Python
+
+#### Instalación de la consola
+En Ubuntu no necesitas instalar una consola a diferencia de Windows. Para poder usar la terminal debes presionar Ctrl + Alt + t y voilà, se abrirá frente a tus ojos
+
+#### Instalación del editor de código
+Abre tu navegador preferido (Firefox, Chrome, el que quieras) y dirígete a 
+
+```python
+https://go.microsoft.com/fwlink/?LinkID=760868
+```
+<div align="center"> 
+  <img src="img/li0.png" width="450">
+</div>
+
+Abre el archivo descargado. Notarás que termina en “.deb”
+<div align="center"> 
+  <img src="img/li1.png" width="450">
+</div>
+
+Sigue los pasos de instalación
+
+<div align="center"> 
+  <img src="img/li2.png" width="450">
+</div>
+
+Introduce la contraseña de tu sistema:
+<div align="center"> 
+  <img src="img/li3.png" width="450">
+</div>
+Espera a que termine la instalación:
+<div align="center"> 
+  <img src="img/li4.png" width="450">
+</div>
+Instalación finalizada:
+
+#### Instalación de Python
+Abre tu terminal y ejecuta los siguientes comandos:
+
+```python
+sudo apt update
+```
+```python
+sudo apt install python3-pip
+```
+Te mostrará si deseas continuar con la instalación, da click en enter.
+
+La instalación empezará:
+
+Ejecuta el comando para verificar que el lenguaje de programación se instaló correctamente
+
+```python
+python3 -V
+```
+
+
+
+```python
+$ node app
+```
