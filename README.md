@@ -530,9 +530,29 @@ not estudia
 
 ## <a name="Tu-primer-programa-conversor-de-monedas">Tu primer programa: conversor de monedas</a>
 
+```python
+# Pedimos al usuario un valor y lo guardamos en la variable quetzales
+quetzales = input("¿Cuantos quetzles tienes?: ")
+# Lo convertimos de string a float
+quetzales = float(quetzales)
 
+valorDolar = 7
+dolares = quetzales / valorDolar
+# Quitamos los desimales y indicamos la cantidad de desimales que yo quiero
+# round(variable, cantidadDeDesimalesQueYoQuiero)
+dolares = round(dolares, 2)
+# Lo convertimos de float a string 
+dolares = str(dolares)
 
+# Lo concatenamos y los mostramos al usuario
+print("Tienes $ " + dolares + " dolares")
+```
+Ejecutar un archivo Python
+Debemos de estar fuera de Python para que se ejecute
 
+```python
+python convertidorDolar.py
+```
 
 
 
